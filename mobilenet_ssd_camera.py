@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument("--video", help="path to video file. If empty, camera's stream will be used")
     parser.add_argument("--prototxt", default="MobileNetSSD_deploy.prototxt",
                         help="path to caffe prototxt")
-    parser.add_argument("-c", "--caffemodel", default="MobileNetSSD_deploy.caffemodel",
+    parser.add_argument("-m", "--caffemodel", default="MobileNetSSD_deploy.caffemodel",
                         help="path to caffemodel file, download it here: "
                         "https://github.com/chuanqi305/MobileNet-SSD/")
     parser.add_argument("--thr", default=0.2, help="confidence threshold to filter out weak detections")
